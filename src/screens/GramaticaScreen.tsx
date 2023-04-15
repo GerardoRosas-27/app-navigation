@@ -10,15 +10,13 @@ const GramaticaScreen = ({navigation}:Props) => {
   return (
     <View style={styles.container}>
         <Button
-        title="Prueba settings"
-        onPress={() => navigation.navigate('Setting')}
+        title="Crear oraciones"
+        onPress={() => navigation.navigate('Oraciones')}
       />
       <View style={styles.countContainer}>
-        <Text>Count: {count}</Text>
+        <Text>Errors: {count}</Text>
       </View>
-      <TouchableOpacity style={styles.button} onPress={onPress}>
-        <Text>Press Here</Text>
-      </TouchableOpacity>
+ 
     </View>
   );
 };
