@@ -79,6 +79,86 @@
         {
             "id": 20,
             "translation": "Los datos pasaron por el sistema de canalización."
+        },
+        {
+            "id": 21,
+            "translation": "El desarrollador envió una solicitud de extracción al propietario del repositorio."
+        },
+        {
+            "id": 22,
+            "translation": "La base de datos almacenó la información del usuario para la aplicación."
+        },
+        {
+            "id": 23,
+            "translation": "El sitio web mostró el catálogo de productos al cliente."
+        },
+        {
+            "id": 24,
+            "translation": "El equipo discutió el cronograma del proyecto con el gerente."
+        },
+        {
+            "id": 25,
+            "translation": "El sistema generó un archivo de registro para el administrador."
+        },
+        {
+            "id": 26,
+            "translation": "La aplicación procesó la entrada del usuario en el servidor."
+        },
+        {
+            "id": 27,
+            "translation": "El líder de equipo asignó una tarea al miembro del equipo."
+        },
+        {
+            "id": 28,
+            "translation": "El gerente de proyecto aprobó el presupuesto del proyecto con el departamento de finanzas."
+        },
+        {
+            "id": 29,
+            "translation": "El usuario descargó el software desde el sitio web."
+        },
+        {
+            "id": 30,
+            "translation": "El desarrollador corrigió un error para el cliente."
+        },
+        {
+            "id": 31,
+            "translation": "El proyecto cumplió con la fecha límite con los interesados."
+        },
+        {
+            "id": 32,
+            "translation": "El probador informó un problema al equipo de desarrollo."
+        },
+        {
+            "id": 33,
+            "translation": "El usuario estableció una preferencia en la configuración de la cuenta."
+        },
+        {
+            "id": 34,
+            "translation": "La aplicación cargó la interfaz de usuario en el navegador."
+        },
+        {
+            "id": 35,
+            "translation": "El líder del equipo presentó el estado del proyecto a la gerencia."
+        },
+        {
+            "id": 36,
+            "translation": "El servidor procesó la solicitud del cliente."
+        },
+        {
+            "id": 37,
+            "translation": "El programa inicializó las variables en la memoria."
+        },
+        {
+            "id": 38,
+            "translation": "La API devolvió un objeto JSON al solicitante."
+        },
+        {
+            "id": 39,
+            "translation": "El sitio web redirigió al usuario a una página diferente."
+        },
+        {
+            "id": 40,
+            "translation": "El software instaló un complemento para el usuario."
         }
     ]
 }

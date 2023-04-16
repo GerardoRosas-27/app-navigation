@@ -139,6 +139,146 @@
             "verb": "passed",
             "directObject": "through the pipeline",
             "indirectObject": "the system"
+        },
+        {
+            "id": 21,
+            "subject": "The developer",
+            "verb": "submitted",
+            "directObject": "a pull request",
+            "indirectObject": "the repository owner"
+        },
+        {
+            "id": 22,
+            "subject": "The database",
+            "verb": "stored",
+            "directObject": "the user information",
+            "indirectObject": "the application"
+        },
+        {
+            "id": 23,
+            "subject": "The website",
+            "verb": "displayed",
+            "directObject": "the product catalog",
+            "indirectObject": "the customer"
+        },
+        {
+            "id": 24,
+            "subject": "The team",
+            "verb": "discussed",
+            "directObject": "the project timeline",
+            "indirectObject": "the manager"
+        },
+        {
+            "id": 25,
+            "subject": "The system",
+            "verb": "generated",
+            "directObject": "a log file",
+            "indirectObject": "the administrator"
+        },
+        {
+            "id": 26,
+            "subject": "The application",
+            "verb": "processed",
+            "directObject": "the user input",
+            "indirectObject": "the server"
+        },
+        {
+            "id": 27,
+            "subject": "The team lead",
+            "verb": "assigned",
+            "directObject": "a task",
+            "indirectObject": "the team member"
+        },
+        {
+            "id": 28,
+            "subject": "The project manager",
+            "verb": "approved",
+            "directObject": "the project budget",
+            "indirectObject": "the finance department"
+        },
+        {
+            "id": 29,
+            "subject": "The user",
+            "verb": "downloaded",
+            "directObject": "the software",
+            "indirectObject": "the website"
+        },
+        {
+            "id": 30,
+            "subject": "The developer",
+            "verb": "fixed",
+            "directObject": "a bug",
+            "indirectObject": "the customer"
+        },
+        {
+            "id": 31,
+            "subject": "The project",
+            "verb": "met",
+            "directObject": "the deadline",
+            "indirectObject": "the stakeholders"
+        },
+        {
+            "id": 32,
+            "subject": "The tester",
+            "verb": "reported",
+            "directObject": "an issue",
+            "indirectObject": "the development team"
+        },
+        {
+            "id": 33,
+            "subject": "The user",
+            "verb": "set",
+            "directObject": "a preference",
+            "indirectObject": "the account settings"
+        },
+        {
+            "id": 34,
+            "subject": "The application",
+            "verb": "loaded",
+            "directObject": "the user interface",
+            "indirectObject": "the browser"
+        },
+        {
+            "id": 35,
+            "subject": "The team lead",
+            "verb": "presented",
+            "directObject": "the project status",
+            "indirectObject": "the management"
+        },
+        {
+            "id": 36,
+            "subject": "The server",
+            "verb": "handled",
+            "directObject": "the request",
+            "indirectObject": "the client"
+        },
+        {
+            "id": 37,
+            "subject": "The program",
+            "verb": "initialized",
+            "directObject": "the variables",
+            "indirectObject": "the memory"
+        },
+        {
+            "id": 38,
+            "subject": "The API",
+            "verb": "returned",
+            "directObject": "a JSON object",
+            "indirectObject": "the requestor"
+        },
+        {
+            "id": 39,
+            "subject": "The website",
+            "verb": "redirected",
+            "directObject": "the user",
+            "indirectObject": "a different page"
+        },
+        {
+            "id": 40,
+            "subject": "The software",
+            "verb": "installed",
+            "directObject": "a plugin",
+            "indirectObject": "the user"
         }
     ]
 }
