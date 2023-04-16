@@ -7,7 +7,7 @@ type Props = {
   message: string;
   type: MessageType;
   visible: boolean;
-  onClose: () => void;
+  onClose: (next: boolean) => void;
 };
 
 const MessageModal: React.FC<Props> = ({ message, type, visible, onClose }) => {
@@ -37,7 +37,9 @@ const MessageModal: React.FC<Props> = ({ message, type, visible, onClose }) => {
     <Modal visible={visible} transparent animationType="fade">
       <View style={[styles.container, { backgroundColor: getBackgroundColor() }]}>
         <Text style={[styles.message, { color: getTextColor() }]}>{message}</Text>
-        <Text style={styles.close} onPress={onClose}>Cerrar</Text>
+        <Text style={styles.close} onPress={() => onClose(type === 'success' ? true : false)}>
+          {type === 'success' ? 'Next' : 'Clouse'}
+        </Text>
       </View>
     </Modal>
   );
@@ -61,7 +63,7 @@ const styles = StyleSheet.create({
   },
   close: {
     fontSize: 16,
-    color: '#999',
+    color: '#fff',
     textDecorationLine: 'underline',
     marginTop: 10,
   },

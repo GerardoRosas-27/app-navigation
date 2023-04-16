@@ -27,6 +27,7 @@ const PrayersScreen: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalMessage, setModalMessage] = useState('');
   const [modalType, setModalType] = useState<MessageType>('success');
+  const [modalPrayerNext, setModalPrayerNext] = useState<boolean>(false);
 
   const handleBreadcrumbClick = (text: string, origin: BreadcrumbType) => {
     if (origin === 'prayersRandom') {
@@ -64,9 +65,33 @@ const PrayersScreen: React.FC = () => {
     setModalType('error');
   };
 
-  const handleCloseModal = () => {
+  const handleCloseModal = (next: boolean) => {
+    if (next) {
+      setModalPrayerNext(next);
+    }
     setShowModal(false);
   };
+  const initialNextPrayer = async () => {
+    let resultPrayer = await getPrayerRandom();
+    if (resultPrayer) {
+      setSelectedPrayerRandom(resultPrayer);
+      console.log(resultPrayer)
+      let prayerArray = transformObjetToArrayPrayer(resultPrayer)
+      prayerArray.shift()
+      prayerArray = randomOrderArray(prayerArray)
+      console.log(prayerArray)
+      setprayer(prayerArray)
+    }
+  }
+
+  // Actualizar el stado del siguiente mensaje cuando coambia setModalPrayerNext 
+  useEffect(() => {
+    if (modalPrayerNext) {
+      initialNextPrayer();
+      setprayerCompleted([]);
+      setModalPrayerNext(false);
+    }
+  }, [modalPrayerNext]);
 
   // Actualizar el color del texto cuando cambia contPrayerSuccess
   useEffect(() => {
@@ -79,16 +104,7 @@ const PrayersScreen: React.FC = () => {
 
   useEffect(() => {
     (async () => {
-      let resultPrayer = await getPrayerRandom();
-      if (resultPrayer) {
-        setSelectedPrayerRandom(resultPrayer);
-        console.log(resultPrayer)
-        let prayerArray = transformObjetToArrayPrayer(resultPrayer)
-        prayerArray.shift()
-        prayerArray = randomOrderArray(prayerArray)
-        console.log(prayerArray)
-        setprayer(prayerArray)
-      }
+      initialNextPrayer();
     })();
 
   }, [])
