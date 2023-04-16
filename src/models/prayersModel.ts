@@ -5,3 +5,8 @@ export interface Prayers {
     directObject: string;
     indirectObject: string;
 }
+export interface PrayersTranslation {
+    id: number;
+    translation: string;
+}
+

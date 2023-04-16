@@ -1,0 +1,84 @@
+{
+    "translations": [
+        {
+            "id": 1,
+            "translation": "Yo envié un correo electrónico a mi colega."
+        },
+        {
+            "id": 2,
+            "translation": "Asignamos una tarea a nuestro miembro del equipo."
+        },
+        {
+            "id": 3,
+            "translation": "Él presentó la presentación al cliente."
+        },
+        {
+            "id": 4,
+            "translation": "Ella mostró la demostración a los interesados."
+        },
+        {
+            "id": 5,
+            "translation": "Compartieron el código con la comunidad de código abierto."
+        },
+        {
+            "id": 6,
+            "translation": "Tú enviaste un mensaje al equipo de soporte."
+        },
+        {
+            "id": 7,
+            "translation": "El programa generó un informe para el usuario."
+        },
+        {
+            "id": 8,
+            "translation": "El servidor envió una respuesta al cliente."
+        },
+        {
+            "id": 9,
+            "translation": "La función devolvió un valor al llamador."
+        },
+        {
+            "id": 10,
+            "translation": "El script escribió un archivo en el disco."
+        },
+        {
+            "id": 11,
+            "translation": "La variable contiene un valor para el programa."
+        },
+        {
+            "id": 12,
+            "translation": "El arreglo almacena los datos en la memoria."
+        },
+        {
+            "id": 13,
+            "translation": "El objeto tiene una propiedad en la clase."
+        },
+        {
+            "id": 14,
+            "translation": "El módulo importa una biblioteca en el código."
+        },
+        {
+            "id": 15,
+            "translation": "El paquete depende de un módulo en el proyecto."
+        },
+        {
+            "id": 16,
+            "translation": "El mensaje de error mostró una advertencia al usuario."
+        },
+        {
+            "id": 17,
+            "translation": "El compilador generó un archivo ejecutable a partir del código."
+        },
+        {
+            "id": 18,
+            "translation": "La revisión de código identificó un error para el desarrollador."
+        },
+        {
+            "id": 19,
+            "translation": "El algoritmo optimizó el rendimiento de la aplicación."
+        },
+        {
+            "id": 20,
+            "translation": "Los datos pasaron por el sistema de canalización."
+        }
+    ]
+}

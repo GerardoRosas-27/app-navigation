@@ -3,142 +3,142 @@
         {
             "id": 1,
             "subject": "I",
-            "verb": "gave",
-            "directObject": "a book",
-            "indirectObject": "my friend"
+            "verb": "sent",
+            "directObject": "an email",
+            "indirectObject": "my colleague"
         },
         {
             "id": 2,
-            "subject": "They",
-            "verb": "bought",
-            "directObject": "a new car",
-            "indirectObject": "their mom"
+            "subject": "We",
+            "verb": "assigned",
+            "directObject": "a task",
+            "indirectObject": "our team member"
         },
         {
             "id": 3,
-            "subject": "She",
-            "verb": "sent",
-            "directObject": "a birthday card",
-            "indirectObject": "her sister"
+            "subject": "He",
+            "verb": "gave",
+            "directObject": "the presentation",
+            "indirectObject": "the client"
         },
         {
             "id": 4,
-            "subject": "We",
-            "verb": "offered",
-            "directObject": "the job",
-            "indirectObject": "him"
+            "subject": "She",
+            "verb": "showed",
+            "directObject": "the demo",
+            "indirectObject": "the stakeholders"
         },
         {
             "id": 5,
-            "subject": "He",
-            "verb": "cooked",
-            "directObject": "dinner",
-            "indirectObject": "me"
+            "subject": "They",
+            "verb": "shared",
+            "directObject": "the code",
+            "indirectObject": "the open-source community"
         },
         {
             "id": 6,
-            "subject": "They",
-            "verb": "showed",
-            "directObject": "the way to the party",
-            "indirectObject": "the guests"
+            "subject": "You",
+            "verb": "sent",
+            "directObject": "a message",
+            "indirectObject": "the support team"
         },
         {
             "id": 7,
-            "subject": "She",
-            "verb": "told",
-            "directObject": "the truth",
-            "indirectObject": "her teacher"
+            "subject": "The program",
+            "verb": "generated",
+            "directObject": "a report",
+            "indirectObject": "the user"
         },
         {
             "id": 8,
-            "subject": "I",
-            "verb": "wrote",
-            "directObject": "a letter",
-            "indirectObject": "my parents"
+            "subject": "The server",
+            "verb": "sent",
+            "directObject": "a response",
+            "indirectObject": "the client"
         },
         {
             "id": 9,
-            "subject": "He",
-            "verb": "taught",
-            "directObject": "how to ride a bike",
-            "indirectObject": "his daughter"
+            "subject": "The function",
+            "verb": "returned",
+            "directObject": "a value",
+            "indirectObject": "the caller"
         },
         {
             "id": 10,
-            "subject": "They",
-            "verb": "lent",
-            "directObject": "some money",
-            "indirectObject": "us"
+            "subject": "The script",
+            "verb": "wrote",
+            "directObject": "a file",
+            "indirectObject": "the disk"
         },
         {
             "id": 11,
-            "subject": "She",
-            "verb": "promised",
-            "directObject": "a surprise",
-            "indirectObject": "her husband"
+            "subject": "The variable",
+            "verb": "holds",
+            "directObject": "a value",
+            "indirectObject": "the program"
         },
         {
             "id": 12,
-            "subject": "We",
-            "verb": "asked",
-            "directObject": "for a menu",
-            "indirectObject": "the waiter"
+            "subject": "The array",
+            "verb": "stores",
+            "directObject": "the data",
+            "indirectObject": "the memory"
         },
         {
             "id": 13,
-            "subject": "He",
-            "verb": "showed",
-            "directObject": "his new tattoo",
-            "indirectObject": "his friends"
+            "subject": "The object",
+            "verb": "has",
+            "directObject": "a property",
+            "indirectObject": "the class"
         },
         {
             "id": 14,
-            "subject": "They",
-            "verb": "brought",
-            "directObject": "a bouquet of flowers",
-            "indirectObject": "their grandmother"
+            "subject": "The module",
+            "verb": "imports",
+            "directObject": "a library",
+            "indirectObject": "the code"
         },
         {
             "id": 15,
-            "subject": "I",
-            "verb": "recommended",
-            "directObject": "the movie",
-            "indirectObject": "my sister"
+            "subject": "The package",
+            "verb": "depends",
+            "directObject": "on a module",
+            "indirectObject": "the project"
         },
         {
             "id": 16,
-            "subject": "She",
-            "verb": "sold",
-            "directObject": "her old car",
-            "indirectObject": "her neighbor"
+            "subject": "The error message",
+            "verb": "displayed",
+            "directObject": "a warning",
+            "indirectObject": "the user"
         },
         {
             "id": 17,
-            "subject": "We",
-            "verb": "gave",
-            "directObject": "the keys to the apartment",
-            "indirectObject": "the landlord"
+            "subject": "The compiler",
+            "verb": "generated",
+            "directObject": "an executable",
+            "indirectObject": "the code"
         },
         {
             "id": 18,
-            "subject": "He",
-            "verb": "told",
-            "directObject": "the good news",
-            "indirectObject": "his boss"
+            "subject": "The code review",
+            "verb": "identified",
+            "directObject": "a bug",
+            "indirectObject": "the developer"
         },
         {
             "id": 19,
-            "subject": "They",
-            "verb": "handed",
-            "directObject": "the package",
-            "indirectObject": "the mail carrier"
+            "subject": "The algorithm",
+            "verb": "optimized",
+            "directObject": "the performance",
+            "indirectObject": "the application"
         },
         {
             "id": 20,
-            "subject": "She",
-            "verb": "taught",
-            "directObject": "how to swim in the pool",
-            "indirectObject": "her daughter"
+            "subject": "The data",
+            "verb": "passed",
+            "directObject": "through the pipeline",
+            "indirectObject": "the system"
         }
     ]
 }

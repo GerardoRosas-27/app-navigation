@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet, Text, Button } from 'react-native';
 import Breadcrumb from '../components/Breadcrumb';
-import { getPrayerRandom } from '../services/prayersService';
+import { getPrayerRandom, getPrayerTranslation } from '../services/prayersService';
 import { randomOrderArray, transformObjetToArrayPrayer } from '../commons/helpers/prayersHelper';
-import { Prayers } from '../models/prayersModel';
+import { Prayers, PrayersTranslation } from '../models/prayersModel';
 import MessageModal from '../components/MessageModal';
 
 type MessageType = 'success' | 'error';
@@ -17,10 +17,15 @@ const PrayersScreen: React.FC = () => {
     directObject: '',
     indirectObject: ''
   }
+  const initialPrayerTranslation: PrayersTranslation = {
+    id: 0,
+    translation: ''
+  }
   //state for prayers
   const [prayer, setprayer] = useState<string[]>([]);
   const [prayerCompleted, setprayerCompleted] = useState<string[]>([]);
   const [selectedPrayerRandom, setSelectedPrayerRandom] = useState<Prayers>(initialPrayer);
+  const [selectedPrayerTranslation, setSelectedPrayerTranslation] = useState<PrayersTranslation>(initialPrayerTranslation);
   const [contPrayerSuccess, setContPrayerSuccess] = useState<number>(0);
   const [colorCont, setColorCont] = useState<string>('#138aec');
   //state for modal messages
@@ -55,7 +60,7 @@ const PrayersScreen: React.FC = () => {
 
   const handleShowSuccessMessage = () => {
     setShowModal(true);
-    setModalMessage('¡Oración correcta!');
+    setModalMessage('¡Oración correcta! Translation: ' + selectedPrayerTranslation.translation);
     setModalType('success');
   };
 
@@ -74,6 +79,10 @@ const PrayersScreen: React.FC = () => {
   const initialNextPrayer = async () => {
     let resultPrayer = await getPrayerRandom();
     if (resultPrayer) {
+      let prayerTranslation = await getPrayerTranslation(resultPrayer.id);
+      if(prayerTranslation){
+        setSelectedPrayerTranslation(prayerTranslation);
+      }
       setSelectedPrayerRandom(resultPrayer);
       console.log(resultPrayer)
       let prayerArray = transformObjetToArrayPrayer(resultPrayer)
