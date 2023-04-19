@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet, Text, Button } from 'react-native';
 import Breadcrumb from '../components/Breadcrumb';
-import { getPrayerRandom, getPrayerTranslation } from '../services/prayersService';
+import { getPrayerRandom, getPrayerTranslation, getPlayAudio } from '../services/prayersService';
 import { randomOrderArray, transformObjetToArrayPrayer } from '../commons/helpers/prayersHelper';
 import { Prayers, PrayersTranslation } from '../models/prayersModel';
 import MessageModal from '../components/MessageModal';
@@ -58,9 +58,10 @@ const PrayersScreen: React.FC = () => {
     }
   }
 
-  const handleShowSuccessMessage = () => {
+  const handleShowSuccessMessage = async () => {
     setShowModal(true);
     setModalMessage('¡Oración correcta! Translation: ' + selectedPrayerTranslation.translation);
+    await getPlayAudio('audio'+ selectedPrayerTranslation.id + '.mp3');
     setModalType('success');
   };
 
