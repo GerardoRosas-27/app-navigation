@@ -8,5 +8,6 @@ export interface Prayers {
 export interface PrayersTranslation {
     id: number;
     translation: string;
+    url: string;
 }
 

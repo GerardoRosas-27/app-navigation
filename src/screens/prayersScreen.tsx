@@ -19,7 +19,8 @@ const PrayersScreen: React.FC = () => {
   }
   const initialPrayerTranslation: PrayersTranslation = {
     id: 0,
-    translation: ''
+    translation: '',
+    url: ''
   }
   //state for prayers
   const [prayer, setprayer] = useState<string[]>([]);
@@ -61,7 +62,7 @@ const PrayersScreen: React.FC = () => {
   const handleShowSuccessMessage = async () => {
     setShowModal(true);
     setModalMessage('¡Oración correcta! Translation: ' + selectedPrayerTranslation.translation);
-    await getPlayAudio('audio'+ selectedPrayerTranslation.id + '.mp3');
+    await getPlayAudio(selectedPrayerTranslation);
     setModalType('success');
   };
 
