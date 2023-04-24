@@ -78,6 +78,12 @@ const PrayersScreen: React.FC = () => {
     }
     setShowModal(false);
   };
+  const handleReplayModal = async (replay: boolean) => {
+    if (replay) {
+      await getPlayAudio(selectedPrayerTranslation);
+    }
+    
+  };
   const initialNextPrayer = async () => {
     let resultPrayer = await getPrayerRandom();
     if (resultPrayer) {
@@ -142,6 +148,7 @@ const PrayersScreen: React.FC = () => {
         message={modalMessage}
         type={modalType}
         onClose={handleCloseModal}
+        onReplay={handleReplayModal}
       />
     </View>
   );

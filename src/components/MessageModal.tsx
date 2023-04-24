@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Modal, Text, StyleSheet } from 'react-native';
+import { View, Modal, Text, StyleSheet, Button } from 'react-native';
 
 type MessageType = 'success' | 'error';
 
@@ -8,9 +8,10 @@ type Props = {
   type: MessageType;
   visible: boolean;
   onClose: (next: boolean) => void;
+  onReplay: (next: boolean) => void;
 };
 
-const MessageModal: React.FC<Props> = ({ message, type, visible, onClose }) => {
+const MessageModal: React.FC<Props> = ({ message, type, visible, onClose, onReplay }) => {
   const getBackgroundColor = () => {
     switch (type) {
       case 'success':
@@ -32,14 +33,26 @@ const MessageModal: React.FC<Props> = ({ message, type, visible, onClose }) => {
         return '#000';
     }
   };
-
+  let numColumns = type === 'success' ? 2 : 1;
   return (
     <Modal visible={visible} transparent animationType="fade">
       <View style={[styles.container, { backgroundColor: getBackgroundColor() }]}>
         <Text style={[styles.message, { color: getTextColor() }]}>{message}</Text>
-        <Text style={styles.close} onPress={() => onClose(type === 'success' ? true : false)}>
-          {type === 'success' ? 'Next' : 'Clouse'}
-        </Text>
+        <View style={styles.containerRow}>
+          <View style={{ width: `${100 / numColumns}%`, ...styles.containerColumm }} >
+            <Button title={type === 'success' ? 'Next' : 'Clouse'} onPress={() => onClose(type === 'success' ? true : false)} />
+          </View>
+          {type === 'success' &&
+            <View style={{ width: `${100 / numColumns}%`, ...styles.containerColumm }} >
+              <Button
+                title="Replay"
+                onPress={() => onReplay(true)}
+              />
+            </View>
+          }
+
+        </View>
+
       </View>
     </Modal>
   );
@@ -61,12 +74,21 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     textAlign: 'center',
   },
-  close: {
-    fontSize: 16,
-    color: '#fff',
-    textDecorationLine: 'underline',
-    marginTop: 10,
+  containerRow: {
+    height: '10%',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    paddingHorizontal: 10,
+    justifyContent: 'center'
   },
+  containerColumm: {
+    height: 100,
+    paddingHorizontal: 5
+  },
+  contentText: {
+    backgroundColor: 'red',
+    height: '100%'
+  }
 });
 
 export default MessageModal;
