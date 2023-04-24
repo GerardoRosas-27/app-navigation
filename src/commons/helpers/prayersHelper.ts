@@ -1,4 +1,5 @@
 import { Prayers } from "../../models/prayersModel";
+import { WordModel } from "../../models/verbModel";
 
 export const randomPrayer = (data: Prayers[]): Prayers => {
   const randomIndex = Math.floor(Math.random() * data.length);
@@ -19,6 +20,10 @@ export const transformObjetToArrayPrayer = (obj: Prayers): string[] => {
 }
 
 export const randomOrderArray = (array: string[]): string[] => {
+  array.sort(() => Math.random() - 0.5);
+  return array
+} 
+export const randomOrderArrayVerbs = (array: WordModel[]): WordModel[] => {
   array.sort(() => Math.random() - 0.5);
   return array
 } 

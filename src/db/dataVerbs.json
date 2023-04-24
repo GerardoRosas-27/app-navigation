@@ -1,0 +1,308 @@
+{
+    "pastTense": [
+        {
+            "id": 1,
+            "value": "write",
+            "translate": "escribir"
+        },
+        {
+            "id": 2,
+            "value": "read",
+            "translate": "leer"
+        },
+        {
+            "id": 3,
+            "value": "debug",
+            "translate": "depurar"
+        },
+        {
+            "id": 4,
+            "value": "test",
+            "translate": "probar"
+        },
+        {
+            "id": 5,
+            "value": "develop",
+            "translate": "desarrollar"
+        },
+        {
+            "id": 6,
+            "value": "design",
+            "translate": "diseñar"
+        },
+        {
+            "id": 7,
+            "value": "implement",
+            "translate": "implementar"
+        },
+        {
+            "id": 8,
+            "value": "maintain",
+            "translate": "mantener"
+        },
+        {
+            "id": 9,
+            "value": "deploy",
+            "translate": "desplegar"
+        },
+        {
+            "id": 10,
+            "value": "document",
+            "translate": "documentar"
+        },
+        {
+            "id": 11,
+            "value": "manage",
+            "translate": "administrar"
+        },
+        {
+            "id": 12,
+            "value": "analyze",
+            "translate": "analizar"
+        },
+        {
+            "id": 13,
+            "value": "build",
+            "translate": "construir"
+        },
+        {
+            "id": 14,
+            "value": "configure",
+            "translate": "configurar"
+        },
+        {
+            "id": 15,
+            "value": "deploy",
+            "translate": "desplegar"
+        },
+        {
+            "id": 16,
+            "value": "install",
+            "translate": "instalar"
+        },
+        {
+            "id": 17,
+            "value": "integrate",
+            "translate": "integrar"
+        },
+        {
+            "id": 18,
+            "value": "optimize",
+            "translate": "optimizar"
+        },
+        {
+            "id": 19,
+            "value": "program",
+            "translate": "programar"
+        },
+        {
+            "id": 20,
+            "value": "update",
+            "translate": "actualizar"
+        }
+    ],
+    "verbPresent": [
+        {
+            "id": 1,
+            "value": "write",
+            "translate": "escribir"
+        },
+        {
+            "id": 2,
+            "value": "read",
+            "translate": "leer"
+        },
+        {
+            "id": 3,
+            "value": "debug",
+            "translate": "depurar"
+        },
+        {
+            "id": 4,
+            "value": "test",
+            "translate": "probar"
+        },
+        {
+            "id": 5,
+            "value": "develop",
+            "translate": "desarrollar"
+        },
+        {
+            "id": 6,
+            "value": "design",
+            "translate": "diseñar"
+        },
+        {
+            "id": 7,
+            "value": "implement",
+            "translate": "implementar"
+        },
+        {
+            "id": 8,
+            "value": "maintain",
+            "translate": "mantener"
+        },
+        {
+            "id": 9,
+            "value": "deploy",
+            "translate": "desplegar"
+        },
+        {
+            "id": 10,
+            "value": "document",
+            "translate": "documentar"
+        },
+        {
+            "id": 11,
+            "value": "manage",
+            "translate": "administrar"
+        },
+        {
+            "id": 12,
+            "value": "analyze",
+            "translate": "analizar"
+        },
+        {
+            "id": 13,
+            "value": "build",
+            "translate": "construir"
+        },
+        {
+            "id": 14,
+            "value": "configure",
+            "translate": "configurar"
+        },
+        {
+            "id": 15,
+            "value": "deploy",
+            "translate": "desplegar"
+        },
+        {
+            "id": 16,
+            "value": "install",
+            "translate": "instalar"
+        },
+        {
+            "id": 17,
+            "value": "integrate",
+            "translate": "integrar"
+        },
+        {
+            "id": 18,
+            "value": "optimize",
+            "translate": "optimizar"
+        },
+        {
+            "id": 19,
+            "value": "program",
+            "translate": "programar"
+        },
+        {
+            "id": 20,
+            "value": "update",
+            "translate": "actualizar"
+        }
+    ],
+    "futureVerbs": [
+        {
+            "id": 1,
+            "value": "escribiré",
+            "translate": "I will write"
+        },
+        {
+            "id": 2,
+            "value": "leeré",
+            "translate": "I will read"
+        },
+        {
+            "id": 3,
+            "value": "depuraré",
+            "translate": "I will debug"
+        },
+        {
+            "id": 4,
+            "value": "probaré",
+            "translate": "I will test"
+        },
+        {
+            "id": 5,
+            "value": "desarrollaré",
+            "translate": "I will develop"
+        },
+        {
+            "id": 6,
+            "value": "diseñaré",
+            "translate": "I will design"
+        },
+        {
+            "id": 7,
+            "value": "implementaré",
+            "translate": "I will implement"
+        },
+        {
+            "id": 8,
+            "value": "mantendré",
+            "translate": "I will maintain"
+        },
+        {
+            "id": 9,
+            "value": "desplegaré",
+            "translate": "I will deploy"
+        },
+        {
+            "id": 10,
+            "value": "documentaré",
+            "translate": "I will document"
+        },
+        {
+            "id": 11,
+            "value": "administraré",
+            "translate": "I will manage"
+        },
+        {
+            "id": 12,
+            "value": "analizaré",
+            "translate": "I will analyze"
+        },
+        {
+            "id": 13,
+            "value": "construiré",
+            "translate": "I will build"
+        },
+        {
+            "id": 14,
+            "value": "configuraré",
+            "translate": "I will configure"
+        },
+        {
+            "id": 15,
+            "value": "desplegaré",
+            "translate": "I will deploy"
+        },
+        {
+            "id": 16,
+            "value": "instalaré",
+            "translate": "I will install"
+        },
+        {
+            "id": 17,
+            "value": "integraré",
+            "translate": "I will integrate"
+        },
+        {
+            "id": 18,
+            "value": "optimizaré",
+            "translate": "I will optimize"
+        },
+        {
+            "id": 19,
+            "value": "programaré",
+            "translate": "I will program"
+        },
+        {
+            "id": 20,
+            "value": "actualizaré",
+            "translate": "I will update"
+        }
+    ]
+}

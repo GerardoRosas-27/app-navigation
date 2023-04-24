@@ -13,6 +13,10 @@ const GramaticaScreen = ({navigation}:Props) => {
         title="Crear oraciones"
         onPress={() => navigation.navigate('Oraciones')}
       />
+       <Button
+        title="Tiempos verbales"
+        onPress={() => navigation.navigate('Verbos')}
+      />
       <View style={styles.countContainer}>
         <Text>Errors: {count}</Text>
       </View>
