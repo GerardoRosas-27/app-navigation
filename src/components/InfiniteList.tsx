@@ -13,19 +13,20 @@ const InfiniteList: React.FC<Props> = ({ data, onVerbsClick, origin }) => {
   const [words, setWords] = React.useState<WordModel[]>(data);
 
   const handleSelect = (data: WordModel, origin: VerbsTensen) => {
-    onVerbsClick(data, origin)
-    console.log("data: ", data);
+    onVerbsClick(data, origin);
     const newWords = words.map((word) => {
       if (word.id === data.id) {
         return {
           ...word,
-          selected: !word.selected,
+          selected: true,
         };
       } else {
-        return word;
+        return {
+          ...word,
+          selected: false,
+        };
       }
     });
-    console.log("selected: ", newWords)
     setWords(newWords);
   };
 
