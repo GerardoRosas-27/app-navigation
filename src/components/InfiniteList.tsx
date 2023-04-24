@@ -2,22 +2,21 @@ import React, { useEffect } from 'react';
 import { FlatList, TouchableOpacity } from 'react-native';
 import { View, Text, StyleSheet } from 'react-native';
 import { WordModel } from '../models/verbModel';
-type VerbsTensen = 'prayersRandom' | 'prayersCompleted';
+type VerbsTensen = 'Paset' | 'Present' | 'Future';
 interface Props {
   data: WordModel[];
+  onVerbsClick: (data: WordModel, origin: VerbsTensen) => void;
+  origin: VerbsTensen
 }
 
-const InfiniteList: React.FC<Props> = ({ data }) => {
-
-
+const InfiniteList: React.FC<Props> = ({ data, onVerbsClick, origin }) => {
   const [words, setWords] = React.useState<WordModel[]>(data);
 
-
-
-  const handleSelect = (id: number) => {
-    console.log("id: ", id)
+  const handleSelect = (data: WordModel, origin: VerbsTensen) => {
+    onVerbsClick(data, origin)
+    console.log("data: ", data);
     const newWords = words.map((word) => {
-      if (word.id === id) {
+      if (word.id === data.id) {
         return {
           ...word,
           selected: !word.selected,
@@ -33,7 +32,7 @@ const InfiniteList: React.FC<Props> = ({ data }) => {
   const renderItem = ({ item }: { item: WordModel }) => {
     const itemStyle = item.selected ? styles.selectedItem : styles.item;
     return (
-      <TouchableOpacity onPress={() => handleSelect(item.id)} style={itemStyle}>
+      <TouchableOpacity onPress={() => handleSelect(item, origin)} style={itemStyle}>
         <Text>{item.value}</Text>
       </TouchableOpacity>
     );

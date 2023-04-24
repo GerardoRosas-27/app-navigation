@@ -2,307 +2,757 @@
     "pastTense": [
         {
             "id": 1,
-            "value": "write",
-            "translate": "escribir"
+            "value": "accessed",
+            "translate": "accedido"
         },
         {
             "id": 2,
-            "value": "read",
-            "translate": "leer"
+            "value": "added",
+            "translate": "agregado"
         },
         {
             "id": 3,
-            "value": "debug",
-            "translate": "depurar"
+            "value": "built",
+            "translate": "construido"
         },
         {
             "id": 4,
-            "value": "test",
-            "translate": "probar"
+            "value": "created",
+            "translate": "creado"
         },
         {
             "id": 5,
-            "value": "develop",
-            "translate": "desarrollar"
+            "value": "deleted",
+            "translate": "borrado"
         },
         {
             "id": 6,
-            "value": "design",
-            "translate": "diseñar"
+            "value": "deployed",
+            "translate": "implementado"
         },
         {
             "id": 7,
-            "value": "implement",
-            "translate": "implementar"
+            "value": "designed",
+            "translate": "diseñado"
         },
         {
             "id": 8,
-            "value": "maintain",
-            "translate": "mantener"
+            "value": "developed",
+            "translate": "desarrollado"
         },
         {
             "id": 9,
-            "value": "deploy",
-            "translate": "desplegar"
+            "value": "downloaded",
+            "translate": "descargado"
         },
         {
             "id": 10,
-            "value": "document",
-            "translate": "documentar"
+            "value": "edited",
+            "translate": "editado"
         },
         {
             "id": 11,
-            "value": "manage",
-            "translate": "administrar"
+            "value": "executed",
+            "translate": "ejecutado"
         },
         {
             "id": 12,
-            "value": "analyze",
-            "translate": "analizar"
+            "value": "exported",
+            "translate": "exportado"
         },
         {
             "id": 13,
-            "value": "build",
-            "translate": "construir"
+            "value": "imported",
+            "translate": "importado"
         },
         {
             "id": 14,
-            "value": "configure",
-            "translate": "configurar"
+            "value": "installed",
+            "translate": "instalado"
         },
         {
             "id": 15,
-            "value": "deploy",
-            "translate": "desplegar"
+            "value": "integrated",
+            "translate": "integrado"
         },
         {
             "id": 16,
-            "value": "install",
-            "translate": "instalar"
+            "value": "loaded",
+            "translate": "cargado"
         },
         {
             "id": 17,
-            "value": "integrate",
-            "translate": "integrar"
+            "value": "logged",
+            "translate": "registrado"
         },
         {
             "id": 18,
-            "value": "optimize",
-            "translate": "optimizar"
+            "value": "modified",
+            "translate": "modificado"
         },
         {
             "id": 19,
-            "value": "program",
-            "translate": "programar"
+            "value": "optimized",
+            "translate": "optimizado"
         },
         {
             "id": 20,
-            "value": "update",
-            "translate": "actualizar"
+            "value": "packaged",
+            "translate": "empaquetado"
+        },
+        {
+            "id": 21,
+            "value": "parsed",
+            "translate": "analizado"
+        },
+        {
+            "id": 22,
+            "value": "printed",
+            "translate": "impreso"
+        },
+        {
+            "id": 23,
+            "value": "processed",
+            "translate": "procesado"
+        },
+        {
+            "id": 24,
+            "value": "published",
+            "translate": "publicado"
+        },
+        {
+            "id": 25,
+            "value": "queried",
+            "translate": "consultado"
+        },
+        {
+            "id": 26,
+            "value": "read",
+            "translate": "leído"
+        },
+        {
+            "id": 27,
+            "value": "refreshed",
+            "translate": "actualizado"
+        },
+        {
+            "id": 28,
+            "value": "removed",
+            "translate": "eliminado"
+        },
+        {
+            "id": 29,
+            "value": "rendered",
+            "translate": "renderizado"
+        },
+        {
+            "id": 30,
+            "value": "reset",
+            "translate": "restablecido"
+        },
+        {
+            "id": 31,
+            "value": "retrieved",
+            "translate": "recuperado"
+        },
+        {
+            "id": 32,
+            "value": "saved",
+            "translate": "guardado"
+        },
+        {
+            "id": 33,
+            "value": "searched",
+            "translate": "buscado"
+        },
+        {
+            "id": 34,
+            "value": "sent",
+            "translate": "enviado"
+        },
+        {
+            "id": 35,
+            "value": "set",
+            "translate": "establecido"
+        },
+        {
+            "id": 36,
+            "value": "tested",
+            "translate": "probado"
+        },
+        {
+            "id": 37,
+            "value": "updated",
+            "translate": "actualizado"
+        },
+        {
+            "id": 38,
+            "value": "uploaded",
+            "translate": "subido"
+        },
+        {
+            "id": 39,
+            "value": "used",
+            "translate": "usado"
+        },
+        {
+            "id": 40,
+            "value": "validated",
+            "translate": "validado"
+        },
+        {
+            "id": 41,
+            "value": "viewed",
+            "translate": "visto"
+        },
+        {
+            "id": 42,
+            "value": "visited",
+            "translate": "visitado"
+        },
+        {
+            "id": 43,
+            "value": "wrote",
+            "translate": "escrito"
+        },
+        {
+            "id": 44,
+            "value": "called",
+            "translate": "llamado"
+        },
+        {
+            "id": 45,
+            "value": "applied",
+            "translate": "aplicado"
+        },
+        {
+            "id": 46,
+            "value": "dropped",
+            "translate": "soltado"
+        },
+        {
+            "id": 47,
+            "value": "implemented",
+            "translate": "implementado"
+        },
+        {
+            "id": 48,
+            "value": "authenticated",
+            "translate": "autenticado"
+        },
+        {
+            "id": 49,
+            "value": "authorized",
+            "translate": "autorizado"
+        },
+        {
+            "id": 50,
+            "value": "debugged",
+            "translate": "depurado"
         }
     ],
     "verbPresent": [
         {
             "id": 1,
-            "value": "write",
-            "translate": "escribir"
+            "value": "access",
+            "translate": "acceder"
         },
         {
             "id": 2,
-            "value": "read",
-            "translate": "leer"
+            "value": "add",
+            "translate": "agregar"
         },
         {
             "id": 3,
-            "value": "debug",
-            "translate": "depurar"
-        },
-        {
-            "id": 4,
-            "value": "test",
-            "translate": "probar"
-        },
-        {
-            "id": 5,
-            "value": "develop",
-            "translate": "desarrollar"
-        },
-        {
-            "id": 6,
-            "value": "design",
-            "translate": "diseñar"
-        },
-        {
-            "id": 7,
-            "value": "implement",
-            "translate": "implementar"
-        },
-        {
-            "id": 8,
-            "value": "maintain",
-            "translate": "mantener"
-        },
-        {
-            "id": 9,
-            "value": "deploy",
-            "translate": "desplegar"
-        },
-        {
-            "id": 10,
-            "value": "document",
-            "translate": "documentar"
-        },
-        {
-            "id": 11,
-            "value": "manage",
-            "translate": "administrar"
-        },
-        {
-            "id": 12,
-            "value": "analyze",
-            "translate": "analizar"
-        },
-        {
-            "id": 13,
             "value": "build",
             "translate": "construir"
         },
         {
-            "id": 14,
-            "value": "configure",
-            "translate": "configurar"
+            "id": 4,
+            "value": "create",
+            "translate": "crear"
         },
         {
-            "id": 15,
+            "id": 5,
+            "value": "delete",
+            "translate": "borrar"
+        },
+        {
+            "id": 6,
             "value": "deploy",
-            "translate": "desplegar"
+            "translate": "implementar"
         },
         {
-            "id": 16,
+            "id": 7,
+            "value": "design",
+            "translate": "diseñar"
+        },
+        {
+            "id": 8,
+            "value": "develop",
+            "translate": "desarrollar"
+        },
+        {
+            "id": 9,
+            "value": "download",
+            "translate": "descargar"
+        },
+        {
+            "id": 10,
+            "value": "edit",
+            "translate": "editar"
+        },
+        {
+            "id": 11,
+            "value": "execute",
+            "translate": "ejecutar"
+        },
+        {
+            "id": 12,
+            "value": "export",
+            "translate": "exportar"
+        },
+        {
+            "id": 13,
+            "value": "import",
+            "translate": "importar"
+        },
+        {
+            "id": 14,
             "value": "install",
             "translate": "instalar"
         },
         {
-            "id": 17,
+            "id": 15,
             "value": "integrate",
             "translate": "integrar"
         },
         {
+            "id": 16,
+            "value": "load",
+            "translate": "cargar"
+        },
+        {
+            "id": 17,
+            "value": "log",
+            "translate": "registrar"
+        },
+        {
             "id": 18,
+            "value": "modify",
+            "translate": "modificar"
+        },
+        {
+            "id": 19,
             "value": "optimize",
             "translate": "optimizar"
         },
         {
-            "id": 19,
-            "value": "program",
-            "translate": "programar"
+            "id": 20,
+            "value": "package",
+            "translate": "empaquetar"
         },
         {
-            "id": 20,
+            "id": 21,
+            "value": "parse",
+            "translate": "analizar"
+        },
+        {
+            "id": 22,
+            "value": "print",
+            "translate": "imprimir"
+        },
+        {
+            "id": 23,
+            "value": "process",
+            "translate": "procesar"
+        },
+        {
+            "id": 24,
+            "value": "publish",
+            "translate": "publicar"
+        },
+        {
+            "id": 25,
+            "value": "query",
+            "translate": "consultar"
+        },
+        {
+            "id": 26,
+            "value": "read",
+            "translate": "leer"
+        },
+        {
+            "id": 27,
+            "value": "refresh",
+            "translate": "actualizar"
+        },
+        {
+            "id": 28,
+            "value": "remove",
+            "translate": "eliminar"
+        },
+        {
+            "id": 29,
+            "value": "render",
+            "translate": "renderizar"
+        },
+        {
+            "id": 30,
+            "value": "reset",
+            "translate": "restablecer"
+        },
+        {
+            "id": 31,
+            "value": "retrieve",
+            "translate": "recuperar"
+        },
+        {
+            "id": 32,
+            "value": "save",
+            "translate": "guardar"
+        },
+        {
+            "id": 33,
+            "value": "search",
+            "translate": "buscar"
+        },
+        {
+            "id": 34,
+            "value": "send",
+            "translate": "enviar"
+        },
+        {
+            "id": 35,
+            "value": "set",
+            "translate": "establecer"
+        },
+        {
+            "id": 36,
+            "value": "test",
+            "translate": "probar"
+        },
+        {
+            "id": 37,
             "value": "update",
             "translate": "actualizar"
+        },
+        {
+            "id": 38,
+            "value": "upload",
+            "translate": "subir"
+        },
+        {
+            "id": 39,
+            "value": "use",
+            "translate": "usar"
+        },
+        {
+            "id": 40,
+            "value": "validate",
+            "translate": "validar"
+        },
+        {
+            "id": 41,
+            "value": "view",
+            "translate": "ver"
+        },
+        {
+            "id": 42,
+            "value": "visit",
+            "translate": "visitar"
+        },
+        {
+            "id": 43,
+            "value": "write",
+            "translate": "escribir"
+        },
+        {
+            "id": 44,
+            "value": "call",
+            "translate": "llamar"
+        },
+        {
+            "id": 45,
+            "value": "apply",
+            "translate": "aplicar"
+        },
+        {
+            "id": 46,
+            "value": "drop",
+            "translate": "soltar"
+        },
+        {
+            "id": 47,
+            "value": "implement",
+            "translate": "implementar"
+        },
+        {
+            "id": 48,
+            "value": "authenticate",
+            "translate": "autenticar"
+        },
+        {
+            "id": 49,
+            "value": "authorize",
+            "translate": "autorizar"
+        },
+        {
+            "id": 50,
+            "value": "debug",
+            "translate": "depurar"
         }
     ],
     "futureVerbs": [
         {
             "id": 1,
-            "value": "escribiré",
-            "translate": "I will write"
+            "value": "will access",
+            "translate": "accederé"
         },
         {
             "id": 2,
-            "value": "leeré",
-            "translate": "I will read"
+            "value": "will add",
+            "translate": "agregaré"
         },
         {
             "id": 3,
-            "value": "depuraré",
-            "translate": "I will debug"
+            "value": "will build",
+            "translate": "construiré"
         },
         {
             "id": 4,
-            "value": "probaré",
-            "translate": "I will test"
+            "value": "will create",
+            "translate": "crearé"
         },
         {
             "id": 5,
-            "value": "desarrollaré",
-            "translate": "I will develop"
+            "value": "will delete",
+            "translate": "borraré"
         },
         {
             "id": 6,
-            "value": "diseñaré",
-            "translate": "I will design"
+            "value": "will deploy",
+            "translate": "implementaré"
         },
         {
             "id": 7,
-            "value": "implementaré",
-            "translate": "I will implement"
+            "value": "will design",
+            "translate": "diseñaré"
         },
         {
             "id": 8,
-            "value": "mantendré",
-            "translate": "I will maintain"
+            "value": "will develop",
+            "translate": "desarrollaré"
         },
         {
             "id": 9,
-            "value": "desplegaré",
-            "translate": "I will deploy"
+            "value": "will download",
+            "translate": "descargaré"
         },
         {
             "id": 10,
-            "value": "documentaré",
-            "translate": "I will document"
+            "value": "will edit",
+            "translate": "editaré"
         },
         {
             "id": 11,
-            "value": "administraré",
-            "translate": "I will manage"
+            "value": "will execute",
+            "translate": "ejecutaré"
         },
         {
             "id": 12,
-            "value": "analizaré",
-            "translate": "I will analyze"
+            "value": "will export",
+            "translate": "exportaré"
         },
         {
             "id": 13,
-            "value": "construiré",
-            "translate": "I will build"
+            "value": "will import",
+            "translate": "importaré"
         },
         {
             "id": 14,
-            "value": "configuraré",
-            "translate": "I will configure"
+            "value": "will install",
+            "translate": "instalaré"
         },
         {
             "id": 15,
-            "value": "desplegaré",
-            "translate": "I will deploy"
+            "value": "will integrate",
+            "translate": "integraré"
         },
         {
             "id": 16,
-            "value": "instalaré",
-            "translate": "I will install"
+            "value": "will load",
+            "translate": "cargaré"
         },
         {
             "id": 17,
-            "value": "integraré",
-            "translate": "I will integrate"
+            "value": "will log",
+            "translate": "registraré"
         },
         {
             "id": 18,
-            "value": "optimizaré",
-            "translate": "I will optimize"
+            "value": "will modify",
+            "translate": "modificaré"
         },
         {
             "id": 19,
-            "value": "programaré",
-            "translate": "I will program"
+            "value": "will optimize",
+            "translate": "optimizaré"
         },
         {
             "id": 20,
-            "value": "actualizaré",
-            "translate": "I will update"
+            "value": "will package",
+            "translate": "empaquetaré"
+        },
+        {
+            "id": 21,
+            "value": "will parse",
+            "translate": "analizaré"
+        },
+        {
+            "id": 22,
+            "value": "will print",
+            "translate": "imprimiré"
+        },
+        {
+            "id": 23,
+            "value": "will process",
+            "translate": "procesaré"
+        },
+        {
+            "id": 24,
+            "value": "will publish",
+            "translate": "publicaré"
+        },
+        {
+            "id": 25,
+            "value": "will query",
+            "translate": "consultaré"
+        },
+        {
+            "id": 26,
+            "value": "will read",
+            "translate": "leeré"
+        },
+        {
+            "id": 27,
+            "value": "will refresh",
+            "translate": "actualizaré"
+        },
+        {
+            "id": 28,
+            "value": "will remove",
+            "translate": "eliminaré"
+        },
+        {
+            "id": 29,
+            "value": "will render",
+            "translate": "renderizaré"
+        },
+        {
+            "id": 30,
+            "value": "will reset",
+            "translate": "restableceré"
+        },
+        {
+            "id": 31,
+            "value": "will retrieve",
+            "translate": "recuperaré"
+        },
+        {
+            "id": 32,
+            "value": "will save",
+            "translate": "guardaré"
+        },
+        {
+            "id": 33,
+            "value": "will search",
+            "translate": "buscaré"
+        },
+        {
+            "id": 34,
+            "value": "will send",
+            "translate": "enviaré"
+        },
+        {
+            "id": 35,
+            "value": "will set",
+            "translate": "estableceré"
+        },
+        {
+            "id": 36,
+            "value": "will test",
+            "translate": "probaré"
+        },
+        {
+            "id": 37,
+            "value": "will update",
+            "translate": "actualizaré"
+        },
+        {
+            "id": 38,
+            "value": "will upload",
+            "translate": "subiré"
+        },
+        {
+            "id": 39,
+            "value": "will use",
+            "translate": "usaré"
+        },
+        {
+            "id": 40,
+            "value": "will validate",
+            "translate": "validaré"
+        },
+        {
+            "id": 41,
+            "value": "will view",
+            "translate": "veré"
+        },
+        {
+            "id": 42,
+            "value": "will visit",
+            "translate": "visitaré"
+        },
+        {
+            "id": 43,
+            "value": "will write",
+            "translate": "escribiré"
+        },
+        {
+            "id": 44,
+            "value": "will call",
+            "translate": "llamaré"
+        },
+        {
+            "id": 45,
+            "value": "will apply",
+            "translate": "aplicaré"
+        },
+        {
+            "id": 46,
+            "value": "will drop",
+            "translate": "soltará"
+        },
+        {
+            "id": 47,
+            "value": "will implement",
+            "translate": "implementaré"
+        },
+        {
+            "id": 48,
+            "value": "will authenticate",
+            "translate": "autenticaré"
+        },
+        {
+            "id": 49,
+            "value": "will authorize",
+            "translate": "autorizaré"
+        },
+        {
+            "id": 50,
+            "value": "will debug",
+            "translate": "depuraré"
         }
     ]
 }
