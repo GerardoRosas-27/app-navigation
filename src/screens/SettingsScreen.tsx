@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { View, Text, StyleSheet } from 'react-native';
 import { Dimensions } from 'react-native';
+import CreateVoiceMP3 from '../components/CreateVoiceMP3';
 
 const SettingsScreen = () => {
 
@@ -37,7 +38,12 @@ const SettingsScreen = () => {
                     <Text>col 5</Text>
                 </View>
             </View>
+            <View style={{ width: `100%`, ...styles.containerColumm }} >
+                <CreateVoiceMP3></CreateVoiceMP3>
+            </View>
+
         </View>
+
 
 
     )
@@ -46,7 +52,7 @@ const SettingsScreen = () => {
 const styles = StyleSheet.create({
     containerRow: {
         height: '10%',
-        flexDirection: 'row', 
+        flexDirection: 'row',
         flexWrap: 'wrap',
         paddingHorizontal: 10,
         justifyContent: 'center'
